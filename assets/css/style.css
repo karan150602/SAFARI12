@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    font-family: 'Roboto', sans-serif !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-weight: lighter;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2f2f29;
+}
+
+.nav-link {
+    display: block;
+    color: white !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover {
+    color: orange !important;
+}
+
+.nav-item a:focus {
+    color: orange !important;
+}
+
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    background-color: #6c631a;
+    border: none;
+}
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.navbar-nav > li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padding_25px {
+    padding: 25px;
+}
+
+/* Body */
+.article-section {
+    padding: 0 1rem;
+}
+
+.article-description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.article-header {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+
+.article-video {
+    width: 100%;
+    max-height: 100%;
+}
+
+.article-image {
+    width: 100%;
+    height: 100%;
+}
+
+.article-figure {
+    margin: 0;
+}
+
+.article-figure-content {
+    position: relative;
+}
+.article-image-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+.article-image-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    font-size: 15px;
+    
+}
+
+.article-detail-link {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article-section .contact-message {
+    text-align: center;
+}
+
+#successmsg {
+    text-align: center;
+    color: green; 
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+#map {
+    height: 400px;
+}
+
+.footer-back-clolor {
+    background-color: #6c631a;
+    color: #000;
+    padding: 40px 0px;
+}
+.fasize {
+    font-size: 22px;
+}
+
+.visitor-detail-icon {
+    font-size: 22px;
+    color: black;
+}
+
+a.footer-link {
+    color: #f5ab5e;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+.banner-container {
+    padding: 0;
+}
+
+.okavango-banner-image {
+    background-image: url('/assets/images/okav-2.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+}
+
+.chobe-banner-image {
+    background-image: url('/assets/images/bird-4644652_1920.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+}
+
+.visitor-detail-link,
+.wildlife {
+    display: block;
+    text-align: center;
+}
+
+.visitor-detail-icon {
+    font-size: 80px;
+    color: black;
+}
+
+.okavango-banner-image-2 {
+    background-image: url('/assets/images/okavango-bannerimg.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+}
+
+.chobe-banner-image-2 {
+    background-image: url('/assets/images/chobe-4.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+}
+
+.second-banner {
+    margin-top: 25px;
+}
+
+.animal-image {
+    height: 75px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.animal-tooltip {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 5px solid #f4f1f1;
+    border-radius: 5px;
+}
+
+#okavango-map {
+    height: 400px;
+}
+
+#chobe-map {
+    height: 400px;
+}
+
+.carousel-caption {
+    margin-top: 20px;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+}
+
+footer .fa {
+    color: #f5ab5e;
+}
+
+@media (max-width: 700px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    p {
+        padding: 20px;
+    }
+    .article-detail-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .wildlife {
+        margin-bottom: 20px;
+    }
+
+    .wildlife p {
+        padding: 0;
+    }
+
+    .article-header {
+        margin-bottom: 0;
+    }
+    .visitor-detail-link p {
+        padding-top: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        flex-flow: row wrap;
+    }
+}
+
+@media (min-width: 1025px) {
+    .article-section {
+        padding-top: 70px;
+    }
+
+    .article-header {
+        font-size: 32px;
+    }
+
+    .article-description {
+        font-size: 21px;
+        text-align: justify;
+    }
+
+    .carousel-caption p {
+        font-size: 28px;
+    }
+
+    .article-image-hover {
+        font-size: 25px;
+    }
+    .article-image-content {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .article-image-content-description {
+        font-size: 22px;
+    }
+
+    .article-detail-link {
+        padding: 2rem 0;
+        font-size: 30px;
+    }
+    .article-section .contact-message {
+        font-size: 20px;
+    }
+    #map {
+        height: 100%;
+    }
+
+    .okavango-banner-image,
+    .chobe-banner-image,
+    .okavango-banner-image-2,
+    .chobe-banner-image-2 {
+        height: 470px;
+    }
+
+    .visitor-detail-link p {
+        font-size: 18px;
+    }
+
+    .second-banner {
+        margin-top: 50px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 45px;
+    }
+
+    
+    .navbar-expand-md {
+        flex-flow: row nowrap;
+    }
+}
